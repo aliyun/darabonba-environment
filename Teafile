@@ -1,0 +1,55 @@
+{
+  "scope": "darabonba",
+  "name": "Env",
+  "version": "0.0.1",
+  "main": "./main.tea",
+  "releases": {
+    "go": "github.com/alibabacloud-go/darabonba-env/client:v1.0.0",
+    "ts": "@alicloud/darabonba-env:^1.0.0",
+    "csharp": "AlibabaCloud.DarabonbaEnv:0.1.0",
+    "java": "com.aliyun:darabonba-env:0.1.0",
+    "php": "alibabacloud/darabonba-env:^0.1.0",
+    "python": "alibabacloud_darabonba_env:0.0.1"
+  },
+  "java": {
+    "package": "com.aliyun.darabonba.env",
+    "className": "EnvClient",
+    "packageInfo": {
+      "description": "Darabonba Environment Library for Java",
+      "url": "https://github.com/aliyun/darabonba-environment",
+      "licenseName": "The Apache License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "groupId": "com.aliyun",
+      "artifactId": "darabonba-env",
+      "version": "0.1.0",
+      "name": "darabonba-env",
+      "developerId": "darabonba",
+      "developerName": "Darabonba",
+      "developerEmail": "sdk-team@alibabacloud.com"
+    }
+  },
+  "csharp": {
+    "namespace": "AlibabaCloud.DarabonbaEnv",
+    "className": "Client"
+  },
+  "php": {
+    "package": "AlibabaCloud.Darabonba.Env",
+    "clientName": "Env",
+    "packageInfo": {
+      "name": "alibabacloud/darabonba-env",
+      "desc": "Alibaba Cloud Darabonba Environment Library for PHP",
+      "github": "https://github.com/aliyun/darabonba-environment"
+    }
+  },
+  "python": {
+    "package": "alibabacloud_darabonba_env",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "alibabacloud_darabonba_env",
+      "desc": "Alibaba Cloud Darabonba Environment SDK Library for Python",
+      "github": "https://github.com/aliyun/darabonba-environment",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  }
+}
