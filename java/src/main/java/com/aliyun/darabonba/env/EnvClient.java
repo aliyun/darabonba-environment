@@ -16,7 +16,11 @@ public class EnvClient {
      * @return environment variable
      */
     public static String getEnv(String key) throws Exception {
-        return System.getProperty(key);
+        String value = System.getProperty(key);
+        if(value == null){
+            value = System.getenv(key);
+        }
+        return value;
     }
 
     /**
