@@ -9,7 +9,8 @@
     "csharp": "AlibabaCloud.DarabonbaEnv:0.1.0",
     "java": "com.aliyun:darabonba-env:0.1.0",
     "php": "alibabacloud/darabonba-env:^0.1.0",
-    "python": "alibabacloud_darabonba_env:0.0.1"
+    "python": "alibabacloud_darabonba_env:0.0.1",
+    "swift": "alibabacloud-sdk-swift/darabonba-env:1.0.0"
   },
   "java": {
     "package": "com.aliyun.darabonba.env",
@@ -48,6 +49,16 @@
       "name": "alibabacloud_darabonba_env",
       "desc": "Alibaba Cloud Darabonba Environment SDK Library for Python",
       "github": "https://github.com/aliyun/darabonba-environment",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  },
+  "swift": {
+    "clientName": "Client",
+    "packageInfo": {
+      "name": "AlibabacloudDarabonbaEnv",
+      "desc": "Alibaba Cloud Darabonba Environment SDK for Swift(5.6)",
+      "github": "https://github.com/alibabacloud-sdk-swift/darabonba-env",
       "author": "Alibaba Cloud SDK",
       "email": "sdk-team@alibabacloud.com"
     }
